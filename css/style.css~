@@ -39,7 +39,6 @@ input {
 input[type=text] {
 padding-left: 16px;
 }
-
 .button input[type="submit"]{
     margin-top: -2px;
     padding-top: 7px;
