@@ -1,0 +1,61 @@
+.container::before,
+.container::after,
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table; }
+
+.container::after,
+.clearfix::after {
+    clear: both; }
+
+body {
+    background: #e9e9e9;
+    color: #aeaddd;
+    font-family: "Roboto", sans-serif; }
+
+.wrapper {
+    overflow: hidden; }
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1{
+    margin: 25px 0 25px 0;
+    text-transform: uppercase;
+}
+div.button {
+    margin: 25px 0 35px 0;
+}
+
+input {
+    border: 0;
+    padding: 6px;
+    border-radius: 35px;
+    font-size: 15px;
+}
+.button input[type="submit"]{
+    margin-top: -2px;
+    padding-top: 7px;
+    margin-left: -35px;
+    border: 0;
+    border-radius: 35px;
+}
+
+div.list{
+    margin: 0 250px 0 250px;
+}
+div.list li{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.list input[type="submit"]{
+    margin-left: 225px;
+    border: 0;
+}
+.list label {
+    font-weight: 400;
+}
